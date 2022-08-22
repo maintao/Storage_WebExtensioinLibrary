@@ -1,0 +1,15 @@
+{
+  "name": "Storage",
+  "description": "Storage Example",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Storage",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
